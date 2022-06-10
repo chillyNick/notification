@@ -1,0 +1,29 @@
+debug: true
+
+metrics:
+  host: localhost
+  port: 9102
+  path: /metrics
+
+jaeger:
+  service: "notification"
+  host: "localhost"
+  port: "6831"
+
+database:
+  host: localhost
+  port: 5432
+  user: docker
+  password: docker
+  name: notification
+  migrations: migrations
+
+kafka:
+  consumerTopic: "moderation_comments"
+  groupId: "notification"
+  brokers:
+    - "localhost:9094"
+
+smtp:
+  host: localhost
+  port: 1025
