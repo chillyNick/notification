@@ -2,9 +2,10 @@ package stmp_sender
 
 import (
 	"fmt"
+	"net/smtp"
+
 	"github.com/homework3/notification/internal/config"
 	"github.com/rs/zerolog/log"
-	"net/smtp"
 )
 
 type MailSender struct {

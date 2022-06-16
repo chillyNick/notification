@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/homework3/notification/internal/app"
 	"github.com/homework3/notification/internal/config"
 	"github.com/homework3/notification/internal/database"

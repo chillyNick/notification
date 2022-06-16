@@ -2,6 +2,7 @@ package notification
 
 import (
 	"fmt"
+
 	"github.com/homework3/notification/pkg/model"
 	"github.com/rs/zerolog/log"
 )

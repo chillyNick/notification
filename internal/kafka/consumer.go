@@ -3,6 +3,7 @@ package kafka
 import (
 	"encoding/json"
 	"fmt"
+
 	"github.com/Shopify/sarama"
 	"github.com/homework3/notification/internal/config"
 	"github.com/homework3/notification/internal/notification"

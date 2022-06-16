@@ -2,6 +2,7 @@ package pgx_repository
 
 import (
 	"errors"
+
 	"github.com/homework3/notification/internal/database"
 	"github.com/jackc/pgx/v4"
 	"golang.org/x/net/context"
